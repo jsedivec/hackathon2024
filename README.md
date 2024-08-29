@@ -19,8 +19,8 @@ Data transfered via serial port to the ATMEGA-328p (ARDUINO Uno).
 - ESC      = 0xAA,
 - ESC SYNC = 0x01
 
-ROTATE VALUE (2B) = Turn right  > 0 > Turn Left
-RUN VALUE (2B)    = Run Forward > 0 > Run Backward
+- ROTATE VALUE (2B) = Turn right  > 0 > Turn Left
+- RUN VALUE (2B)    = Run Forward > 0 > Run Backward
 
 ### Message examples:
 
