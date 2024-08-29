@@ -24,6 +24,6 @@ Data transfered via serial port to the ATMEGA-328p (ARDUINO Uno).
 
 ### Message examples:
 
-- Stop: SYNC, LENGTH (0x01), STOP
+- Stop: SYNC, LENGTH (=0x01), STOP
 - Turn: SYNC, LENGTH (=0x03), ROTATE, ROTATE VALUE (2B)
 - Go:   SYNC, LENGTH (=0x03), RUN, RUN VALUE (2B)
